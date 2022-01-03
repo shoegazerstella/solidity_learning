@@ -1,0 +1,131 @@
+{
+  "contractName": "MyFirstContract",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/MyFirstContract.sol\":\"MyFirstContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/MyFirstContract.sol\":{\"keccak256\":\"0xa2b68a9708a30784d0da701932c736695b8f5d17ab1773682aa849efc64f2dd5\",\"urls\":[\"bzz-raw://b992345e7d96d3a1aa1b936470aaa0ab961d60fefcd02993dd64b4f5ee95f1b0\",\"dweb:/ipfs/Qmbx7vJm5Q36fMeoANHBRPnZykgU3tpCG2cyY8bScjf4Bz\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220ddb4f3b87fae6cee9bce65adcf07ffcbb51d5935f5d755147f146bb691b81f6a64736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220ddb4f3b87fae6cee9bce65adcf07ffcbb51d5935f5d755147f146bb691b81f6a64736f6c634300080a0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "34:33:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "34:33:1:-:0;;;;;",
+  "source": "pragma solidity >=0.4.22 <0.9.0;\n\ncontract MyFirstContract {\n    \n}",
+  "sourcePath": "/Users/stella/Desktop/solidity/contracts/MyFirstContract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/MyFirstContract.sol",
+    "exportedSymbols": {
+      "MyFirstContract": [
+        35
+      ]
+    },
+    "id": 36,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MyFirstContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 35,
+        "linearizedBaseContracts": [
+          35
+        ],
+        "name": "MyFirstContract",
+        "nameLocation": "43:15:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 36,
+        "src": "34:33:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:67:1"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/MyFirstContract.sol",
+    "exportedSymbols": {
+      "MyFirstContract": [
+        35
+      ]
+    },
+    "id": 36,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MyFirstContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 35,
+        "linearizedBaseContracts": [
+          35
+        ],
+        "name": "MyFirstContract",
+        "nameLocation": "43:15:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 36,
+        "src": "34:33:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:67:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.10+commit.fc410830.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x4Af637A958218c1615bD9c91313073F6bEb7de41",
+      "transactionHash": "0x1ba9ec36a3b228689f32d34eeed6e2334ac5fb94d41a0199d97379cf58d8ad5e"
+    }
+  },
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-03T22:54:14.089Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
